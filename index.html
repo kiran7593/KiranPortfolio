@@ -1,125 +1,388 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Kiran's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kiran Persaud | Junior Web Developer</title>
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <div class="navbar">
+    <nav class="navbar">
 
-        <h2>Kiran Portfolio</h2>
+        <h2>Kiran Persaud</h2>
 
-       <div class="nav-links">
+        <div class="nav-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </div>
-    
-    </div>
 
-    <div class="hero" id="home">
+    </nav>
 
-        <h1>Kiran Persaud</h1>
+    <main>
 
-        <p>
-            I am learning web development and building my skills.
-        </p>
+        <!-- Hero -->
 
-        <button class="button" id="contact-button">
-            Contact Me
-        </button>
+        <section class="hero" id="home">
 
-    </div>
+            <div class="hero-content">
 
-    <div class="about" id="about">
+                <p class="hero-label">
+                    JUNIOR WEB DEVELOPER
+                </p>
 
-        <h2>About Me</h2>
+                <h1>
+                    Hi, I'm Kiran Persaud.
+                </h1>
 
-        <p>
-            I am interested in technology, programming, and creating websites.
-        </p>
+                <p class="hero-description">
+                    I build responsive web applications using React,
+                    JavaScript, TypeScript, and modern web technologies.
+                </p>
 
-    </div>
+                <div class="hero-buttons">
 
-    <div class="skills" id="skills">
+                    <a href="#projects" class="button">
+                        View My Projects
+                    </a>
 
-        <h2>My Skills</h2>
+                    <a href="#contact" class="button secondary-button">
+                        Contact Me
+                    </a>
 
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
+                </div>
 
-    </div>
+            </div>
 
-    <div class="projects" id="projects">
+        </section>
 
-        <h2>My Projects</h2>
+        <!-- About -->
 
-        <div class="project-card">
+        <section class="about" id="about">
 
-            <img src="images/portfolio.png" alt="Portfolio Website">
-
-            <h3>Portfolio Website</h3>
+            <h2>About Me</h2>
 
             <p>
-                A personal website built with HTML, CSS, and JavaScript.
+                I'm a junior web developer focused on building practical,
+                user-friendly web applications. I've built projects ranging
+                from responsive frontend applications to full-stack systems
+                with REST APIs, authentication, and databases.
             </p>
-
-            <a href="#" class="project-button">
-                View Project
-            </a>
-
-        </div>
-
-
-        <div class="project-card">
-
-            <h3>Future Project</h3>
 
             <p>
-                Another project I will build while learning web development.
+                I'm continuously expanding my skills through hands-on
+                development and enjoy turning ideas into functional,
+                polished applications.
             </p>
 
-            <a href="#" class="project-button">
-                View Project
-            </a>
+        </section>
 
-        </div>
+        <!-- Skills -->
 
-    </div>
+        <section class="skills" id="skills">
 
-    <div class="contact" id="contact">
+            <h2>Skills</h2>
 
-        <h2>Contact</h2>
+            <div class="skills-grid">
 
-        <form id="contact-form">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <p>
+                        HTML5, CSS3, JavaScript, React, TypeScript, Vite
+                    </p>
+                </div>
 
-            <label>Name:</label>
-            <input type="text">
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <p>
+                        Node.js, Express.js, REST APIs
+                    </p>
+                </div>
 
-            <label>Email:</label>
-            <input type="email">
+                <div class="skill-card">
+                    <h3>Database & Authentication</h3>
+                    <p>
+                        SQLite, SQL, JWT, bcrypt
+                    </p>
+                </div>
 
-            <label>Message:</label>
-            <textarea></textarea>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <p>
+                        Git, GitHub, VS Code, API Integration
+                    </p>
+                </div>
 
-            <button type="submit">
-                Send Message
-            </button>
+            </div>
 
-            <p id="form-message"></p>
+        </section>
 
-        </form>
+        <!-- Projects -->
 
-    </div>
+        <section class="projects" id="projects">
 
-    <script src="js/script.js"></script>
+            <h2>Projects</h2>
+
+            <p class="section-intro">
+                A selection of web applications I've built while developing
+                my skills in modern web development.
+            </p>
+
+            <!-- Task Manager -->
+
+            <div class="project-card">
+
+                <h3>Full-Stack Task Manager</h3>
+
+                <p>
+                    A full-stack task management application built with
+                    React, Express, Node.js, and SQLite. Features include
+                    task creation, filtering, completion, deletion,
+                    REST API integration, error handling, and persistent
+                    database storage.
+                </p>
+
+                <p class="project-tech">
+                    <strong>Tech:</strong>
+                    React, JavaScript, Express, Node.js, SQLite, REST API
+                </p>
+
+                <div class="project-links">
+
+                    <a
+                        href="https://task-manager-seven-alpha-18.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button"
+                    >
+                        Live Demo
+                    </a>
+
+                    <a
+                        href="https://github.com/kiran7593/task-manager"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button secondary-project-button"
+                    >
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- User Dashboard -->
+
+            <div class="project-card">
+
+                <h3>User Dashboard</h3>
+
+                <p>
+                    A full-stack user dashboard built with React and
+                    TypeScript. Includes account registration, login,
+                    JWT authentication, protected API routes, profile
+                    editing, password hashing, and responsive UI.
+                </p>
+
+                <p class="project-tech">
+                    <strong>Tech:</strong>
+                    React, TypeScript, Express, Node.js, SQLite, JWT, bcrypt
+                </p>
+
+                <div class="project-links">
+
+                    <a
+                        href="https://user-dashboard-q75zt7ail-kiran-265d.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button"
+                    >
+                        Live Demo
+                    </a>
+
+                    <a
+                        href="https://github.com/kiran7593/user-dashboard"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button secondary-project-button"
+                    >
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Movie Finder -->
+
+            <div class="project-card">
+
+                <h3>React Movie Finder</h3>
+
+                <p>
+                    A responsive movie search application using the OMDb API.
+                    Users can search for movies, view ratings and details,
+                    and interact with reusable React components.
+                </p>
+
+                <p class="project-tech">
+                    <strong>Tech:</strong>
+                    React, JavaScript, Vite, REST API, OMDb API
+                </p>
+
+                <div class="project-links">
+
+                    <a
+                        href="https://react-movie-app-two-flame.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button"
+                    >
+                        Live Demo
+                    </a>
+
+                    <a
+                        href="https://github.com/kiran7593/react-movie-app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button secondary-project-button"
+                    >
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- React Todo -->
+
+            <div class="project-card">
+
+                <h3>React Todo App</h3>
+
+                <p>
+                    A responsive task management application built with
+                    React featuring task filtering and localStorage
+                    persistence.
+                </p>
+
+                <p class="project-tech">
+                    <strong>Tech:</strong>
+                    React, JavaScript, CSS, Vite, localStorage
+                </p>
+
+                <div class="project-links">
+
+                    <a
+                        href="https://kiran7593.github.io/react-todo-app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button"
+                    >
+                        Live Demo
+                    </a>
+
+                    <a
+                        href="https://github.com/kiran7593/react-todo-app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button secondary-project-button"
+                    >
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Vanilla Todo -->
+
+            <div class="project-card">
+
+                <h3>Vanilla JavaScript Todo App</h3>
+
+                <p>
+                    A responsive todo application built from scratch with
+                    HTML, CSS, and JavaScript featuring filtering,
+                    localStorage persistence, and animations.
+                </p>
+
+                <p class="project-tech">
+                    <strong>Tech:</strong>
+                    HTML5, CSS3, JavaScript, localStorage
+                </p>
+
+                <div class="project-links">
+
+                    <a
+                        href="https://kiran7593.github.io/vanilla-todo-app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button"
+                    >
+                        Live Demo
+                    </a>
+
+                    <a
+                        href="https://github.com/kiran7593/vanilla-todo-app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-button secondary-project-button"
+                    >
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+
+        <section class="contact" id="contact">
+
+            <h2>Let's Connect</h2>
+
+            <p>
+                I'm currently looking for opportunities to begin my career
+                as a web developer.
+            </p>
+
+            <div class="contact-links">
+
+                <a
+                    href="https://github.com/kiran7593"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/kiran-p-896a59219/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Kiran Persaud. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
 
 </body>
 
