@@ -1,389 +1,331 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Kiran Persaud | Junior Web Developer</title>
-
+    <meta name="description" content="Kiran Persaud - Web Developer portfolio featuring React, TypeScript, Next.js, Node.js and full-stack projects.">
+    <title>Kiran Persaud | Web Developer</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <nav class="navbar">
+    <header class="navbar">
+        <a href="#home" class="logo">Kiran<span>.</span></a>
 
-        <h2>Kiran Persaud</h2>
-
-        <div class="nav-links">
+        <nav class="nav-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-        </div>
-
-    </nav>
+        </nav>
+    </header>
 
     <main>
 
-        <!-- Hero -->
-
         <section class="hero" id="home">
+            <p class="eyebrow">WEB DEVELOPER</p>
 
-            <div class="hero-content">
+            <h1>Hi, I'm Kiran Persaud.</h1>
 
-                <p class="hero-label">
-                    JUNIOR WEB DEVELOPER
-                </p>
+            <h2>I build modern, responsive web applications.</h2>
 
-                <h1>
-                    Hi, I'm Kiran Persaud.
-                </h1>
+            <p class="hero-description">
+                Web Developer focused on React, TypeScript, JavaScript,
+                and full-stack development. I enjoy turning ideas into
+                practical applications and solving real-world problems
+                through technology.
+            </p>
 
-                <p class="hero-description">
-                    I build responsive web applications using React,
-                    JavaScript, TypeScript, and modern web technologies.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#projects" class="button">
-                        View My Projects
-                    </a>
-
-                    <a href="#contact" class="button secondary-button">
-                        Contact Me
-                    </a>
-
-                </div>
-
+            <div class="hero-buttons">
+                <a href="#projects" class="button primary-button">View My Projects</a>
+                <a href="#contact" class="button secondary-button">Get In Touch</a>
             </div>
 
         </section>
 
-        <!-- About -->
-
-        <section class="about" id="about">
-
+        <section class="about section" id="about">
+            <p class="eyebrow">GET TO KNOW ME</p>
             <h2>About Me</h2>
 
             <p>
-                I'm a junior web developer focused on building practical,
-                user-friendly web applications. I've built projects ranging
-                from responsive frontend applications to full-stack systems
-                with REST APIs, authentication, and databases.
+                I'm a Web Developer with hands-on experience building
+                frontend and full-stack applications using modern
+                JavaScript technologies.
             </p>
 
             <p>
-                I'm continuously expanding my skills through hands-on
-                development and enjoy turning ideas into functional,
-                polished applications.
+                My projects include interactive applications, REST APIs,
+                database integration, authentication, and real-time
+                collaboration features.
             </p>
 
+            <p>
+                Before focusing on web development, I spent over six
+                years working as a Business Analyst and Consultant.
+                That experience strengthened my ability to understand
+                requirements, collaborate with cross-functional teams,
+                analyze problems, and deliver practical solutions.
+            </p>
+
+            <p>
+                I'm continuing to grow as a developer and looking for
+                opportunities to contribute to a development team.
+            </p>
         </section>
 
-        <!-- Skills -->
-
-        <section class="skills" id="skills">
-
-            <h2>Skills</h2>
+        <section class="skills section" id="skills">
+            <p class="eyebrow">WHAT I WORK WITH</p>
+            <h2>Technical Skills</h2>
 
             <div class="skills-grid">
-
-                <div class="skill-card">
+                <div class="skill-group">
                     <h3>Frontend</h3>
-                    <p>
-                        HTML5, CSS3, JavaScript, React, TypeScript, Vite
-                    </p>
+                    <p>HTML, CSS, JavaScript, TypeScript, React, Next.js, Vite</p>
                 </div>
 
-                <div class="skill-card">
+                <div class="skill-group">
                     <h3>Backend</h3>
-                    <p>
-                        Node.js, Express.js, REST APIs
-                    </p>
+                    <p>Node.js, Express.js, REST APIs, Socket.IO</p>
                 </div>
 
-                <div class="skill-card">
-                    <h3>Database & Authentication</h3>
-                    <p>
-                        SQLite, SQL, JWT, bcrypt
-                    </p>
+                <div class="skill-group">
+                    <h3>Databases</h3>
+                    <p>PostgreSQL, SQLite, MySQL</p>
                 </div>
 
-                <div class="skill-card">
-                    <h3>Tools</h3>
-                    <p>
-                        Git, GitHub, VS Code, API Integration
-                    </p>
+                <div class="skill-group">
+                    <h3>Tools & Testing</h3>
+                    <p>Git, GitHub, Docker, Jest, Supertest, React Testing Library</p>
                 </div>
 
+                <div class="skill-group">
+                    <h3>Cloud & Infrastructure</h3>
+                    <p>AWS (EC2, S3, RDS, IAM, CloudWatch), AWS CLI, Docker, GitHub Actions</p>
+                </div>
             </div>
-
         </section>
 
-        <!-- Projects -->
+        <section class="projects section" id="projects">
+            <p class="eyebrow">MY RECENT WORK</p>
+            <h2>Featured Projects</h2>
 
-        <section class="projects" id="projects">
-
-            <h2>Projects</h2>
-
-            <p class="section-intro">
-                A selection of web applications I've built while developing
-                my skills in modern web development.
+            <p class="section-description">
+                A selection of applications I've designed and developed
+                while building my web development skills.
             </p>
 
-            <!-- Task Manager -->
+            <div class="projects-grid">
 
-            <div class="project-card">
+                <article class="project-card">
+                    <div class="project-visual syncspace-visual">
+                        <span>SyncSpace</span>
+                    </div>
 
-                <h3>Full-Stack Task Manager</h3>
+                    <div class="project-content">
+                        <h3>SyncSpace</h3>
+                        <p>
+                            A collaborative workspace featuring an
+                            interactive board, real-time updates,
+                            and persistent data storage.
+                        </p>
 
-                <p>
-                    A full-stack task management application built with
-                    React, Express, Node.js, and SQLite. Features include
-                    task creation, filtering, completion, deletion,
-                    REST API integration, error handling, and persistent
-                    database storage.
-                </p>
+                        <p class="project-tech">
+                            React · TypeScript · Node.js · PostgreSQL · Socket.IO · Docker
+                        </p>
 
-                <p class="project-tech">
-                    <strong>Tech:</strong>
-                    React, JavaScript, Express, Node.js, SQLite, REST API
-                </p>
+                        <div class="project-links">
+                            <a href="https://github.com/kiran7593/syncspace"
+                               target="_blank" rel="noopener noreferrer">
+                                GitHub
+                            </a>
 
-                <div class="project-links">
+                            <a href="https://syncspace-2f6.pages.dev"
+                               target="_blank" rel="noopener noreferrer">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
 
-                    <a
-                        href="https://task-manager-seven-alpha-18.vercel.app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button"
-                    >
-                        Live Demo
-                    </a>
+                <article class="project-card">
+                    <div class="project-visual jobtrack-visual">
+                        <span>JobTrack</span>
+                    </div>
 
-                    <a
-                        href="https://github.com/kiran7593/task-manager"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button secondary-project-button"
-                    >
-                        GitHub
-                    </a>
+                    <div class="project-content">
+                        <h3>JobTrack</h3>
+                        <p>
+                            A full-stack job application tracker for
+                            managing applications, monitoring progress,
+                            and organizing follow-ups.
+                        </p>
 
-                </div>
+                        <p class="project-tech">
+                            React · TypeScript · Express · PostgreSQL · Jest
+                        </p>
 
-            </div>
+                        <div class="project-links">
+                            <a href="https://github.com/kiran7593/job-track"
+                               target="_blank" rel="noopener noreferrer">
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </article>
 
-            <!-- User Dashboard -->
+                <article class="project-card">
+                    <div class="project-visual careerpilot-visual">
+                        <span>CareerPilot AI</span>
+                    </div>
 
-            <div class="project-card">
+                    <div class="project-content">
+                        <h3>CareerPilot AI</h3>
+                        <p>
+                            A career development web application built
+                            to help users organize and manage their
+                            career journey.
+                        </p>
 
-                <h3>User Dashboard</h3>
+                        <p class="project-tech">
+                            Next.js · React · TypeScript
+                        </p>
 
-                <p>
-                    A full-stack user dashboard built with React and
-                    TypeScript. Includes account registration, login,
-                    JWT authentication, protected API routes, profile
-                    editing, password hashing, and responsive UI.
-                </p>
+                        <div class="project-links">
+                            <a href="https://github.com/kiran7593/careerpilot-ai"
+                               target="_blank" rel="noopener noreferrer">
+                                GitHub
+                            </a>
 
-                <p class="project-tech">
-                    <strong>Tech:</strong>
-                    React, TypeScript, Express, Node.js, SQLite, JWT, bcrypt
-                </p>
-
-                <div class="project-links">
-
-                    <a
-                        href="https://user-dashboard-q75zt7ail-kiran-265d.vercel.app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button"
-                    >
-                        Live Demo
-                    </a>
-
-                    <a
-                        href="https://github.com/kiran7593/user-dashboard"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button secondary-project-button"
-                    >
-                        GitHub
-                    </a>
-
-                </div>
-
-            </div>
-
-            <!-- Movie Finder -->
-
-            <div class="project-card">
-
-                <h3>React Movie Finder</h3>
-
-                <p>
-                    A responsive movie search application using the OMDb API.
-                    Users can search for movies, view ratings and details,
-                    and interact with reusable React components.
-                </p>
-
-                <p class="project-tech">
-                    <strong>Tech:</strong>
-                    React, JavaScript, Vite, REST API, OMDb API
-                </p>
-
-                <div class="project-links">
-
-                    <a
-                        href="https://react-movie-app-two-flame.vercel.app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button"
-                    >
-                        Live Demo
-                    </a>
-
-                    <a
-                        href="https://github.com/kiran7593/react-movie-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button secondary-project-button"
-                    >
-                        GitHub
-                    </a>
-
-                </div>
+                            <a href="https://careerpilot-ai-lovat.vercel.app"
+                               target="_blank" rel="noopener noreferrer">
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
 
             </div>
-
-            <!-- React Todo -->
-
-            <div class="project-card">
-
-                <h3>React Todo App</h3>
-
-                <p>
-                    A responsive task management application built with
-                    React featuring task filtering and localStorage
-                    persistence.
-                </p>
-
-                <p class="project-tech">
-                    <strong>Tech:</strong>
-                    React, JavaScript, CSS, Vite, localStorage
-                </p>
-
-                <div class="project-links">
-
-                    <a
-                        href="https://kiran7593.github.io/react-todo-app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button"
-                    >
-                        Live Demo
-                    </a>
-
-                    <a
-                        href="https://github.com/kiran7593/react-todo-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button secondary-project-button"
-                    >
-                        GitHub
-                    </a>
-
-                </div>
-
-            </div>
-
-            <!-- Vanilla Todo -->
-
-            <div class="project-card">
-
-                <h3>Vanilla JavaScript Todo App</h3>
-
-                <p>
-                    A responsive todo application built from scratch with
-                    HTML, CSS, and JavaScript featuring filtering,
-                    localStorage persistence, and animations.
-                </p>
-
-                <p class="project-tech">
-                    <strong>Tech:</strong>
-                    HTML5, CSS3, JavaScript, localStorage
-                </p>
-
-                <div class="project-links">
-
-                    <a
-                        href="https://kiran7593.github.io/vanilla-todo-app/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button"
-                    >
-                        Live Demo
-                    </a>
-
-                    <a
-                        href="https://github.com/kiran7593/vanilla-todo-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="project-button secondary-project-button"
-                    >
-                        GitHub
-                    </a>
-
-                </div>
-
-            </div>
-
+        
         </section>
 
-        <!-- Contact -->
+        <section class="additional-projects section">
+            <p class="eyebrow">MORE OF MY WORK</p>
+            <h2>Additional Projects</h2>
 
-        <section class="contact" id="contact">
+            <p class="section-description">
+                Other applications I built while developing my
+                frontend and full-stack development skills.
+            </p>
 
-            <h2>Let's Connect</h2>
+            <div class="additional-projects-grid">
+
+                <article class="additional-project-card">
+                    <h3>User Dashboard</h3>
+                    <p>
+                        A dashboard application with user registration,
+                        login, authentication, and profile management.
+                    </p>
+                    <p class="project-tech">
+                        React · TypeScript · Node.js · Express · JWT
+                    </p>
+                    <a href="https://github.com/kiran7593/user-dashboard"
+                       target="_blank" rel="noopener noreferrer">GitHub</a>
+                </article>
+
+                <article class="additional-project-card">
+                    <h3>Task Manager</h3>
+                    <p>
+                        A task management application for creating,
+                        updating, and organizing tasks with persistent
+                        database storage.
+                    </p>
+                    <p class="project-tech">
+                        React · JavaScript · Node.js · Express · SQLite
+                    </p>
+                    <a href="https://github.com/kiran7593/task-manager"
+                       target="_blank" rel="noopener noreferrer">GitHub</a>
+                </article>
+
+                <article class="additional-project-card">
+                    <h3>OMDb Movie Finder</h3>
+                    <p>
+                        A movie search application that retrieves
+                        movie information using an external API.
+                    </p>
+                    <p class="project-tech">
+                        React · JavaScript · OMDb API
+                    </p>
+                    <a href="https://github.com/kiran7593/react-movie-app"
+                       target="_blank" rel="noopener noreferrer">GitHub</a>
+                </article>
+
+                <article class="additional-project-card">
+                    <h3>React Todo App</h3>
+                    <p>
+                        A task list application with interactive
+                        task management and browser storage.
+                    </p>
+                    <p class="project-tech">
+                        React · JavaScript · Vite · Local Storage
+                    </p>
+                    <a href="https://github.com/kiran7593/react-todo-app"
+                       target="_blank" rel="noopener noreferrer">GitHub</a>
+                </article>
+
+                <article class="additional-project-card">
+                    <h3>Vanilla JavaScript Todo App</h3>
+                    <p>
+                        A task management application built with
+                        vanilla JavaScript, featuring task filters
+                        and browser storage.
+                    </p>
+                    <p class="project-tech">
+                        HTML · CSS · JavaScript · Local Storage
+                    </p>
+                    <a href="https://github.com/kiran7593/vanilla-todo-app"
+                       target="_blank" rel="noopener noreferrer">GitHub</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Get In Touch</h2>
 
             <p>
-                I'm currently looking for opportunities to begin my career
-                as a web developer.
+                I'm interested in Web Developer opportunities and
+                connecting with other professionals. Feel free to reach out.
             </p>
 
             <div class="contact-links">
-
-                <a
-                    href="https://github.com/kiran7593"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    GitHub
+                <a href="mailto:kiran7593@gmail.com">
+                    Email Me
                 </a>
 
-                <a
-                    href="https://www.linkedin.com/in/kiran-p-896a59219/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
+                <a href="https://www.linkedin.com/in/kiran-p-896a59219/"
+                   target="_blank" rel="noopener noreferrer">
                     LinkedIn
                 </a>
 
+                <a href="https://github.com/kiran7593"
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
             </div>
-
         </section>
 
     </main>
 
-    <footer>
-        <p>© 2026 Kiran Persaud. Built with HTML, CSS, and JavaScript.</p>
+    <footer class="footer">
+        <p>&copy; 2026 Kiran Persaud. All rights reserved.</p>
     </footer>
 
-</body>
+    <script src="js/script.js"></script>
 
+</body>
 </html>
