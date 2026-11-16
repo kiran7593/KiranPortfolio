@@ -1,16 +1,8 @@
-const button = document.getElementById("contact-button");
 
-button.addEventListener("click", function() {
-    alert("Thanks for visiting my portfolio!");
-});
+const currentYear = new Date().getFullYear();
 
-const form = document.getElementById("contact-form");
+const footer = document.querySelector(".footer p");
 
-form.addEventListener("submit", function(event) {
-
-    event.preventDefault();
-
-    document.getElementById("form-message").textContent =
-        "Thanks! Your message has been sent.";
-
-});
+if (footer) {
+    footer.innerHTML = `&copy; ${currentYear} Kiran Persaud. All rights reserved.`;
+}
